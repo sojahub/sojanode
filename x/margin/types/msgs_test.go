@@ -141,7 +141,7 @@ func TestTypes_MsgOpenGetSigners(t *testing.T) {
 			msgOpen: types.MsgOpen{
 				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 			},
-			errString: "invalid Bech32 prefix; expected cosmos, got soja",
+			errString: "invalid Bech32 prefix; expected cosmos, got did:fury:s",
 		},
 		{
 			name: "returned address",
@@ -234,7 +234,7 @@ func TestTypes_MsgCloseGetSigners(t *testing.T) {
 			msgClose: types.MsgClose{
 				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 			},
-			errString: "invalid Bech32 prefix; expected cosmos, got soja",
+			errString: "invalid Bech32 prefix; expected cosmos, got did:fury:s",
 		},
 		{
 			name: "returned address",
@@ -327,7 +327,7 @@ func TestTypes_MsgForceCloseGetSigners(t *testing.T) {
 			msgForceClose: types.MsgForceClose{
 				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 			},
-			errString: "invalid Bech32 prefix; expected cosmos, got soja",
+			errString: "invalid Bech32 prefix; expected cosmos, got did:fury:s",
 		},
 		{
 			name: "returned address",
