@@ -1829,7 +1829,7 @@ func TestMsgServer_AddLiquidity(t *testing.T) {
 }
 
 func TestMsgServer_AddProviderDistribution(t *testing.T) {
-	admin := "did:fury:s1gy2ne7m62uer4h5s4e7xlfq7aeem5zpwx6nu9q"
+	admin := "did:fury:s1gy2ne7m62uer4h5s4e7xlfq7aeem5zpwmuuhpk"
 	nonAdmin := "did:fury:s1gy2ne7m62uer4h5s4e7xlfq7aeem5zpwx6nu9r"
 	ctx, app := test.CreateTestAppClpFromGenesis(false, func(app *sojaapp.SojahubApp, genesisState sojaapp.GenesisState) sojaapp.GenesisState {
 		adminGs := &admintypes.GenesisState{
