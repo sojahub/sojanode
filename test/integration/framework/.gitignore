@@ -1,0 +1,4 @@
+/venv/
+/build/
+/src/sojatool/__pycache__/
+/.lock
