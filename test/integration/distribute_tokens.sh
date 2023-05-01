@@ -3,7 +3,7 @@
 cp $BASEDIR/smart-contracts/deployments/$DEPLOYMENT_NAME/BridgeBank.json $BASEDIR/smart-contracts/build/contracts
 
 test_wallets="did:fury:s1fpq67nw66thzmf2a5ng64cd8p8nxa5vl9d3cm4
-did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
 did:fury:s1hjkgsq0wcmwdh8pr3snhswx5xyy4zpgs833akh
 did:fury:s1ypc5qcq5ha562xlak4xw3g6v352k39t6868jhx
 did:fury:s1u7cp5e5kty8xwuu7k234ah4jsknvkzazqagvl6

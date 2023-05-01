@@ -30,13 +30,13 @@ Which returns
 {
   "claims": [
     {
-      "user_address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+      "user_address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false
     },
     {
-      "user_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+      "user_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false
@@ -71,7 +71,7 @@ After parsing should become
             "attributes": [
               {
                 "key": "claim_creator",
-                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z"
               },
               {
                 "key": "claim_type",
@@ -91,7 +91,7 @@ After parsing should become
 {
  "Output": [
   {
-   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
    "coins": [
     {
      "denom": "fury",
@@ -100,7 +100,7 @@ After parsing should become
    ]
   },
   {
-   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
    "coins": [
     {
      "denom": "fury",
@@ -143,7 +143,7 @@ The sender address for the transfers should be the module account in the distrib
  [
           {
             "key": "recipient",
-            "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+            "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z"
           },
           {
             "key": "sender",

@@ -12,7 +12,7 @@ sojanoded tx dispensation claim ValidatorSubsidy --from soja --keyring-backend t
 sleep 8
 sojanoded q dispensation claims-by-type ValidatorSubsidy -o json
 sleep 8
-sojanoded tx dispensation create ValidatorSubsidy output.json did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --gas 200064128 --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --keyring-backend test --fees 100000fury --yes --chain-id sojahub-devnet-042 --node tcp://rpc-devnet-042.sojahub.finance:80
+sojanoded tx dispensation create ValidatorSubsidy output.json did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm --gas 200064128 --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm --keyring-backend test --fees 100000fury --yes --chain-id sojahub-devnet-042 --node tcp://rpc-devnet-042.sojahub.finance:80
 
 sleep 8
 sojanoded q dispensation distributions-all --chain-id localnet -o json

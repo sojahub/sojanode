@@ -112,13 +112,13 @@ Sample output ( address will be different )
   {
     "name": "amara",
     "type": "local",
-    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
     "pubkey": "did:fury:spub1addwnpepqt6sfvz3mwetudyaxjn958kztxz9j8rvrlsu55fw6fjkjyac2s9z5sc8npe"
   },
   {
     "name": "zane",
     "type": "local",
-    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
     "pubkey": "did:fury:spub1addwnpepqdycrc8usnjh0yk7cd532ushualgsderdqj8jr9m2rzy8stqrlpj5vymlww"
   }
 ]
@@ -136,7 +136,7 @@ sojanoded keys add mkey --multisig amara,zane --multisig-threshold 2
 {
  "Input": [
   {
-   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
    "coins": [
     {
      "denom": "fury",
@@ -145,7 +145,7 @@ sojanoded keys add mkey --multisig amara,zane --multisig-threshold 2
    ]
   },
   {
-   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
    "coins": [
     {
      "denom": "fury",
@@ -163,7 +163,7 @@ sojanoded tx dispensation create mkey airdrop-1 Airdrop input.json output.json -
 
 ### Zane Signs the transaction 
 ```shell
-sojanoded tx sign --multisig did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from zane offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-zane.json
+sojanoded tx sign --multisig did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z --from zane offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-zane.json
 ```
 Sample sig-zane.json
 ```json
@@ -181,7 +181,7 @@ Sample sig-zane.json
 - Zane then sends the offlinetx.json to amara
 - Amara creates her signature 
 ```shell
-sojanoded tx sign --multisig did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --from amara offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-amara.json
+sojanoded tx sign --multisig did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm --from amara offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-amara.json
 ```
 Sample sig-amara.json
 ```json

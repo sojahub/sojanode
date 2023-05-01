@@ -30,7 +30,7 @@ type CreateClaimReq struct {
 
 #### CLI
 ```shell
-sojanoded tx dispensation claim LiquidityMining --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
+sojanoded tx dispensation claim LiquidityMining --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
 ```
 
 The relevant event 
@@ -39,7 +39,7 @@ The relevant event
             "attributes": [
               {
                 "key": "userClaim_creator",
-                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z"
               },
               {
                 "key": "userClaim_type",

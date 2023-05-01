@@ -49,7 +49,7 @@ Result:
 ```
 - name: akasha
   type: local
-  address: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
+  address: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0mB4PyE5XeS3sNpFXIX536INyNoJHkMu1DEQ8FgH8Mq"}'
   mnemonic: ""
 - name: mkey
@@ -59,7 +59,7 @@ Result:
   mnemonic: ""
 - name: soja
   type: local
-  address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+  address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"}'
   mnemonic: ""
 ```
@@ -262,7 +262,7 @@ sojanoded q margin positions-for-address $(sojanoded keys show soja -a --keyring
 Result:
 ```
 mtps:
-- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
   collateral_amount: "1000"
   collateral_asset: fury
   custody_amount: "4000"
@@ -273,7 +273,7 @@ mtps:
   liabilities_p: "1000"
   mtp_health: "0.100000000000000000"
   position: LONG
-- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
   collateral_amount: "500"
   collateral_asset: fury
   custody_amount: "2000"
@@ -322,7 +322,7 @@ sojanoded q margin positions-for-address $(sojanoded keys show soja -a --keyring
 Result:
 ```
 mtps:
-- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+- address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
   collateral_amount: "1000"
   collateral_asset: fury
   custody_amount: "4000"

@@ -102,7 +102,7 @@ Sample output ( address will be different )
   {
     "name": "amara",
     "type": "local",
-    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
     "pubkey": "did:fury:spub1addwnpepqt6sfvz3mwetudyaxjn958kztxz9j8rvrlsu55fw6fjkjyac2s9z5sc8npe"
   }
 ]
@@ -110,9 +110,9 @@ Sample output ( address will be different )
 ### Create Dispensation transactions
 Amara wants to create an Airdrop which will be executed by Zane. The create transaction would just crete the drops . Zane would need to run the "run" transaction multiple times to distribute the rewards.
 
-Amara can assign Zane `did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5` to be the authorized runner during the create transactions
+Amara can assign Zane `did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z` to be the authorized runner during the create transactions
 ```shell
-sojanoded tx dispensation create Airdrop output.json did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
+sojanoded tx dispensation create Airdrop output.json did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
 ```
 Sample output
 ```json
@@ -125,9 +125,9 @@ Sample output
 
 ### Run Dispensation transactions
 Zane can now run the dispensation transactions (The configuration is set to distribute 10 rewards every block)
-Distribution name is automatically assigned to Height_DistributerAddress `2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd`
+Distribution name is automatically assigned to Height_DistributerAddress `2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm`
 ```shell
-sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd Airdrop --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
+sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm Airdrop --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
 ```
 Sample output
 ```json

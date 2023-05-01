@@ -36,7 +36,7 @@ Now set the following variables:
 
 ```
 # localnet
-export ADMIN_ADDRESS="did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
+export ADMIN_ADDRESS="did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm"
 export ADMIN_MNEMONIC="race draft rival universe maid cheese steel logic crowd fork comic easy truth drift tomorrow eye buddy head time cash swing swift midnight borrow"
 export SOJA_ACT=soja
 export SOJANODE_CHAIN_ID=localnet

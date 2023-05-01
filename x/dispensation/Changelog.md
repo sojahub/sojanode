@@ -3,12 +3,12 @@
 ---
 ### 10/19/2021
 - Removed validation check which limits dispensation to occur only in fury .
-- Ex to distribute 100 Fury and 100 Ceth to address `did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd` ,the output.json should look like 
+- Ex to distribute 100 Fury and 100 Ceth to address `did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm` ,the output.json should look like 
 ```json
 {
   "Output": [
     {
-      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
       "coins": [
         {
           "denom": "fury",
@@ -17,7 +17,7 @@
       ]
     },
     {
-      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
       "coins": [
         {
           "denom": "ceth",
@@ -32,7 +32,7 @@
 {
   "Output": [
     {
-      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+      "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
       "coins": [
         {
           "denom": "fury",

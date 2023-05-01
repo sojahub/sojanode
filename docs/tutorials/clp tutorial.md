@@ -30,7 +30,7 @@ When used with the use of peg-zone as demonstrated a past video, this will enabl
 ```
 - name: akasha
   type: local
-  address: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
+  address: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0mB4PyE5XeS3sNpFXIX536INyNoJHkMu1DEQ8FgH8Mq"}'
   mnemonic: ""
 - name: mkey
@@ -40,7 +40,7 @@ When used with the use of peg-zone as demonstrated a past video, this will enabl
   mnemonic: ""
 - name: soja
   type: local
-  address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
+  address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"}'
   mnemonic: ""
 ```

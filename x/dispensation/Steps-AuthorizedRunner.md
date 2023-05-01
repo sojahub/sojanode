@@ -15,7 +15,7 @@ sojanoded tx dispensation run [Distribution_Name] [Distribution Type Airdrop/Val
 ```
 sample CLI command
 ```shell
-sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd LiquidityMining --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
+sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm LiquidityMining --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
 ```
 sample output
 ```json
@@ -189,11 +189,11 @@ The relevant event
           "attributes": [
             {
               "key": "distribution_name",
-              "value": "3_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
+              "value": "3_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm"
             },
             {
               "key": "distribution_runner",
-              "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+              "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z"
             }
           ]
         }

@@ -14,7 +14,7 @@
 				"amount": "999999500000000000000000000000"
 			}
 		],
-		"did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd": [
+		"did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm": [
 			{
 				"denom": "atom",
 				"amount": "998999999500000000"
@@ -54,12 +54,12 @@
 		}
 	},
 	"LPs": {
-		"\u0001atom_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd": {
+		"\u0001atom_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm": {
 			"asset": {
 				"symbol": "atom"
 			},
 			"liquidity_provider_units": "1000000000000000000000000000",
-			"liquidity_provider_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
+			"liquidity_provider_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm"
 		}
 	}
 }

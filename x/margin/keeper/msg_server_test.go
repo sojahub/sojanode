@@ -109,7 +109,7 @@ func TestKeeper_Open(t *testing.T) {
 		{
 			name: "insufficient funds but pool health too low",
 			msgOpen: types.MsgOpen{
-				Signer:           "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:           "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				CollateralAsset:  "xxx",
 				CollateralAmount: sdk.NewUint(1000),
 				BorrowAsset:      "xxx",
@@ -123,7 +123,7 @@ func TestKeeper_Open(t *testing.T) {
 		{
 			name: "account funded but pool health too low",
 			msgOpen: types.MsgOpen{
-				Signer:           "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:           "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				CollateralAsset:  "fury",
 				CollateralAmount: sdk.NewUint(1000),
 				BorrowAsset:      "xxx",
@@ -306,7 +306,7 @@ func TestKeeper_Close(t *testing.T) {
 		{
 			name: "insufficient funds/mtp not found",
 			msgClose: types.MsgClose{
-				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:     1,
 			},
 			msgOpen: types.MsgOpen{
@@ -323,7 +323,7 @@ func TestKeeper_Close(t *testing.T) {
 		{
 			name: "account funded",
 			msgClose: types.MsgClose{
-				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:     1,
 			},
 			msgOpen: types.MsgOpen{
@@ -341,7 +341,7 @@ func TestKeeper_Close(t *testing.T) {
 		{
 			name: "mtp position invalid",
 			msgClose: types.MsgClose{
-				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:     1,
 			},
 			msgOpen: types.MsgOpen{
@@ -460,8 +460,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "mtp does not exist",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 			},
 			msgOpen: types.MsgOpen{
 				CollateralAsset: "xxx",
@@ -477,8 +477,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "pool does not exist",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -494,8 +494,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "same collateral and native asset but pool does not exist",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -511,8 +511,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "denom does not exist does not throw error as not using token registry but MTP health above threshold",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -530,8 +530,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "wrong address/mtp not found",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -550,8 +550,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "insufficient funds/mtp not found",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -570,8 +570,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "account funded and mtp healthy but MTP health above threshold",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -590,8 +590,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "account funded and mtp not healthy but MTP health above threshold",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -610,8 +610,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "mtp position invalid",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -629,8 +629,8 @@ func TestKeeper_ForceClose(t *testing.T) {
 		{
 			name: "admin closure does not check health",
 			msgForceClose: types.MsgForceClose{
-				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
-				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer:     "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
+				MtpAddress: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6",
 				Id:         1,
 			},
 			msgOpen: types.MsgOpen{
@@ -695,9 +695,9 @@ func TestKeeper_ForceClose(t *testing.T) {
 						RemovalQueueThreshold:                    sdk.ZeroDec(),
 						Pools:                                    []string{},
 						ForceCloseFundPercentage:                 sdk.NewDecWithPrec(1, 1),
-						ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+						ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 						IncrementalInterestPaymentFundPercentage: sdk.NewDecWithPrec(1, 1),
-						IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+						IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 						IncrementalInterestPaymentEnabled:        false,
 						PoolOpenThreshold:                        sdk.NewDecWithPrec(1, 1),
 						MaxOpenPositions:                         10000,
@@ -854,9 +854,9 @@ func TestKeeper_OpenClose(t *testing.T) {
 				EpochLength:                              0,
 				RemovalQueueThreshold:                    sdk.ZeroDec(),
 				ForceCloseFundPercentage:                 sdk.NewDecWithPrec(1, 1),
-				ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+				ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 				IncrementalInterestPaymentFundPercentage: sdk.NewDecWithPrec(1, 1),
-				IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+				IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 				IncrementalInterestPaymentEnabled:        false,
 				PoolOpenThreshold:                        sdk.NewDecWithPrec(1, 1),
 				MaxOpenPositions:                         10000,
@@ -1052,7 +1052,7 @@ func TestKeeper_OpenClose(t *testing.T) {
 func TestKeeper_OpenThenClose(t *testing.T) {
 	externalAsset := "xxx"
 	nativeAsset := clptypes.NativeSymbol
-	signer := "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v"
+	signer := "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6"
 
 	ctx, app := test.CreateTestAppMarginFromGenesis(false, func(app *sojaapp.SojahubApp, genesisState sojaapp.GenesisState) sojaapp.GenesisState {
 		gs2 := &tokenregistrytypes.GenesisState{
@@ -1076,9 +1076,9 @@ func TestKeeper_OpenThenClose(t *testing.T) {
 				InterestRateIncrease:                     sdk.NewDecWithPrec(1, 5),
 				RemovalQueueThreshold:                    sdk.ZeroDec(),
 				ForceCloseFundPercentage:                 sdk.NewDecWithPrec(1, 1),
-				ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+				ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 				IncrementalInterestPaymentFundPercentage: sdk.NewDecWithPrec(1, 1),
-				IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+				IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 				IncrementalInterestPaymentEnabled:        false,
 				PoolOpenThreshold:                        sdk.NewDecWithPrec(1, 1),
 				MaxOpenPositions:                         10000,
@@ -1751,7 +1751,7 @@ func TestKeeper_EC(t *testing.T) {
 		},
 	}
 
-	signer := "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v"
+	signer := "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtpgpurs6"
 	nativeAsset := clptypes.NativeSymbol
 
 	for _, ec := range table {
@@ -1783,9 +1783,9 @@ func TestKeeper_EC(t *testing.T) {
 						InterestRateIncrease:                     sdk.NewDecWithPrec(1, 2),
 						RemovalQueueThreshold:                    sdk.ZeroDec(),
 						ForceCloseFundPercentage:                 sdk.NewDecWithPrec(1, 1),
-						ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+						ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 						IncrementalInterestPaymentFundPercentage: sdk.NewDecWithPrec(1, 1),
-						IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+						IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
 						IncrementalInterestPaymentEnabled:        false,
 						PoolOpenThreshold:                        sdk.NewDecWithPrec(1, 1),
 						SqModifier:                               sdk.MustNewDecFromStr("10000000000000000000000000"),

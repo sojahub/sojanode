@@ -99,7 +99,7 @@ Transfer events are emitted for each transfer . There are two type of transfers 
     },
     {
       "key": "sender",
-      "value": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
+      "value": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm"
     },
     {
       "key": "amount",

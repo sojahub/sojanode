@@ -2,7 +2,7 @@
 
 set -x
 
-sojanoded tx margin dewhitelist did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd \
+sojanoded tx margin dewhitelist did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm \
   --from $SOJA_ACT \
   --keyring-backend test \
   --fees 100000000000000000fury \

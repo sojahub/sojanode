@@ -97,7 +97,7 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "3",
-                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
                     "pub_key": {
                         "@type": "/cosmos.crypto.secp256k1.PubKey",
                         "key": "AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"
@@ -143,7 +143,7 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "4",
-                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
                     "pub_key": null,
                     "sequence": "0"
                 }
@@ -176,7 +176,7 @@
                     "coins": []
                 },
                 {
-                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
                     "coins": [
                         {
                             "amount": "500000000000000000000000",
@@ -235,7 +235,7 @@
                     ]
                 },
                 {
-                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z",
                     "coins": [
                         {
                             "amount": "500000000000000000000000",
@@ -306,9 +306,9 @@
         },
         "clp": {
             "address_whitelist": [
-                "did:fury:s1ny48eeuk4dm9f63dy0lwfgjhnvud9yvt8e3q3q",
-                "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
-                "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "did:fury:s1ny48eeuk4dm9f63dy0lwfgjhnvud9yvtlscqkk",
+                "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
+                "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2qt269z"
             ],
             "liquidity_provider_list": null,
             "params": {
@@ -322,7 +322,7 @@
         "distribution": {
             "delegator_starting_infos": [
                 {
-                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
                     "starting_info": {
                         "height": "0",
                         "previous_period": "1",
@@ -445,7 +445,7 @@
         "staking": {
             "delegations": [
                 {
-                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777exhphm",
                     "shares": "1000000000000000000000000.000000000000000000",
                     "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
