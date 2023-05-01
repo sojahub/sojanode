@@ -76,7 +76,7 @@ func TestMsgServer_DecommissionPool(t *testing.T) {
 			externalAssetAmount: sdk.NewUint(1000),
 			poolUnits:           sdk.NewUint(1000),
 			msg: &types.MsgDecommissionPool{
-				Signer: "did:fury:s1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8zzt2x5",
+				Signer: "did:fury:s1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8lyypzz",
 				Symbol: "eth",
 			},
 			errString: errors.New("user does not have permission to decommission pool: invalid"),
@@ -991,7 +991,7 @@ func TestMsgServer_RemoveLiquidity(t *testing.T) {
 				if tc.createBalance {
 					balances := []banktypes.Balance{
 						{
-							Address: "did:fury:s1pjm228rsgwqf23arkx7lm9ypkyma7mzr3y2n85",
+							Address: "did:fury:s1pjm228rsgwqf23arkx7lm9ypkyma7mzrvz9crz",
 							Coins: sdk.Coins{
 								sdk.NewCoin(tc.poolAsset, sdk.Int(tc.externalAssetAmount)),
 								sdk.NewCoin("fury", sdk.Int(tc.nativeAssetAmount)),

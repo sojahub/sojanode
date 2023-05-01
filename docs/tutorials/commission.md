@@ -298,7 +298,7 @@ of (1000000000000000000000000 + 100) / (1000000000000000000000000 + 620000000000
 the exact voting power here might vary as `soja_val` earns rewards and `akasha_val` gets slashed:
 
 ```
-sojanoded tx staking delegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna 100stake \
+sojanoded tx staking delegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777ph0t6h 100stake \
   --from soja \
   --keyring-backend test \
   --chain-id localnet \
@@ -401,7 +401,7 @@ sojanoded query staking validators
 the exact voting power here might vary as `soja_val` earns rewards and `akasha_val` gets slashed:
 
 ```
-sojanoded tx staking redelegate did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna 100stake \
+sojanoded tx staking redelegate did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777ph0t6h 100stake \
   --from akasha \
   --keyring-backend test \
   --chain-id localnet \
@@ -419,7 +419,7 @@ of (92000000000000000000000 + 100000000000000000000000) / (920000000000000000000
 the exact voting power here might vary as `soja_val` earns rewards and `akasha_val` gets slashed:
 
 ```
-sojanoded tx staking redelegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy 100000000000000000000000stake \
+sojanoded tx staking redelegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777ph0t6h did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy 100000000000000000000000stake \
   --from soja \
   --keyring-backend test \
   --chain-id localnet \
@@ -442,7 +442,7 @@ sojanoded query staking validators --output=json  | jq '.validators[] | select(.
 2. Rdelegate to `akasha_val` from `soja_val`
 
 ```
-sojanoded tx staking redelegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy 100stake \
+sojanoded tx staking redelegate did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777ph0t6h did:fury:svaloper1l7hypmqk2yc334vc6vmdwzp5sdefygj250dmpy 100stake \
   --from soja \
   --keyring-backend test \
   --chain-id localnet \

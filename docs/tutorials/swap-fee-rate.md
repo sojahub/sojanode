@@ -75,7 +75,7 @@ returns:
 		"swap_price_external": "1.000000000000000000",
 		"reward_period_native_distributed": "0"
 	}],
-	"clp_module_address": "did:fury:s1pjm228rsgwqf23arkx7lm9ypkyma7mzr3y2n85",
+	"clp_module_address": "did:fury:s1pjm228rsgwqf23arkx7lm9ypkyma7mzrvz9crz",
 	"height": "50",
 	"pagination": {
 		"next_key": null,
