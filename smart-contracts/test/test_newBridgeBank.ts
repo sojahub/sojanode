@@ -68,8 +68,8 @@ describe("BridgeBank", () => {
         let amount: BigNumber
         let smallAmount: BigNumber
         let testToken: BridgeToken
-        const recipient = web3.utils.utf8ToHex("soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
-        const invalidRecipient = web3.utils.utf8ToHex("esoja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
+        const recipient = web3.utils.utf8ToHex("did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
+        const invalidRecipient = web3.utils.utf8ToHex("edid:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
 
         before('create test token', async () => {
             accounts = await container.resolve(SojahubAccountsPromise).accounts
@@ -83,7 +83,7 @@ describe("BridgeBank", () => {
         })
 
         it("should lock a test token", async () => {
-            const recipient = web3.utils.utf8ToHex("soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
+            const recipient = web3.utils.utf8ToHex("did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace")
             await bridgeBank.updateEthWhiteList(testToken.address, true)
             await expect(() => bridgeBank.connect(sender).lock(
                 recipient,

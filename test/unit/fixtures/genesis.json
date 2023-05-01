@@ -46,9 +46,9 @@
                         "max_change_rate": "0.010000000000000000"
                       },
                       "min_self_delegation": "1",
-                      "delegator_address": "soja12tqnz6lfwdvzurvw55h24rgwzrdth7wph9g7qx",
-                      "validator_address": "sojavaloper12tqnz6lfwdvzurvw55h24rgwzrdth7wp78q5qk",
-                      "pubkey": "sojavalconspub1zcjduepq0rqzk2gn55k5m2897gn30ayuwdn5fx2c6g592f6duqwlp9d9crmqhwnn4n",
+                      "delegator_address": "did:fury:s12tqnz6lfwdvzurvw55h24rgwzrdth7wph9g7qx",
+                      "validator_address": "did:fury:svaloper12tqnz6lfwdvzurvw55h24rgwzrdth7wp78q5qk",
+                      "pubkey": "did:fury:svalconspub1zcjduepq0rqzk2gn55k5m2897gn30ayuwdn5fx2c6g592f6duqwlp9d9crmqhwnn4n",
                       "value": {
                         "denom": "stake",
                         "amount": "100000000"
@@ -86,7 +86,7 @@
             {
               "type": "cosmos-sdk/Account",
               "value": {
-                "address": "soja12tqnz6lfwdvzurvw55h24rgwzrdth7wph9g7qx",
+                "address": "did:fury:s12tqnz6lfwdvzurvw55h24rgwzrdth7wph9g7qx",
                 "coins": [
                   {
                     "denom": "fury",

@@ -93,7 +93,7 @@ contract("CosmosBridge", function (accounts) {
     beforeEach(async function () {
       // Set up ProphecyClaim values
       this.cosmosSender = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
       this.cosmosSenderSequence = 1;
       this.ethereumReceiver = userThree;
@@ -155,7 +155,7 @@ contract("CosmosBridge", function (accounts) {
 
       // sojahub address
       this.cosmosRecipient = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
 
       // address 0
@@ -319,7 +319,7 @@ contract("CosmosBridge", function (accounts) {
     beforeEach(async function () {
       // Set up ProphecyClaim values
       this.cosmosSender = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
       this.cosmosSenderSequence = 1;
       this.ethereumReceiver = userOne;

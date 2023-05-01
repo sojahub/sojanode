@@ -4,7 +4,7 @@
 # sh ./register-one.sh testnet ixo
 
 
-TOKEN_REGISTRY_ADMIN_ADDRESS="soja1tpypxpppcf5lea47vcvgy09675nllmcucxydvu"
+TOKEN_REGISTRY_ADMIN_ADDRESS="did:fury:s1tpypxpppcf5lea47vcvgy09675nllmcucxydvu"
 
 sojanoded tx tokenregistry register ./$SOJAHUB_ID/$2.json \
   --node $SOJA_NODE \

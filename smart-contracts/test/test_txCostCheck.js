@@ -35,7 +35,7 @@ contract("Gas Cost Test", function (accounts) {
 
       // Set up ProphecyClaim values
       this.cosmosSender = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
       this.cosmosSenderSequence = 1;
       this.ethereumReceiver = userOne;
@@ -77,7 +77,7 @@ contract("Gas Cost Test", function (accounts) {
       });
 
       this.recipient = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
 
       this.weiAmount = web3.utils.toWei("0.25", "ether");
@@ -207,7 +207,7 @@ contract("Gas Cost Test", function (accounts) {
       
       // Set up ProphecyClaim values
       this.cosmosSender = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
       this.cosmosSenderSequence = 1;
       this.ethereumReceiver = userOne;
@@ -252,7 +252,7 @@ contract("Gas Cost Test", function (accounts) {
       });
 
       this.recipient = web3.utils.utf8ToHex(
-        "soja1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
+        "did:fury:s1nx650s8q9w28f2g3t9ztxyg48ugldptuwzpace"
       );
 
       this.weiAmount = web3.utils.toWei("0.25", "ether");

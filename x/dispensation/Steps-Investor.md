@@ -15,7 +15,7 @@ sojanoded tx dispensation create [Distribution Type Airdrop/ValidatorSubsidy/Liq
 ```
 sample command
 ```shell
-sojanoded tx dispensation create LiquidityMining output.json soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
+sojanoded tx dispensation create LiquidityMining output.json did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
 ```
 sample output
 ```json
@@ -36,11 +36,11 @@ The output from the command would contain the relevant event
         "attributes": [
         {
         "key": "module_account",
-        "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+        "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
         },
         {
         "key": "distribution_name",
-        "value": "1158855_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+        "value": "1158855_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
         },
         {
         "key": "distribution_type",

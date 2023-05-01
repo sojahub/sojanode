@@ -139,7 +139,7 @@ func TestTypes_MsgOpenGetSigners(t *testing.T) {
 		{
 			name: "wrong prefix",
 			msgOpen: types.MsgOpen{
-				Signer: "soja1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
 			},
 			errString: "invalid Bech32 prefix; expected cosmos, got soja",
 		},
@@ -232,7 +232,7 @@ func TestTypes_MsgCloseGetSigners(t *testing.T) {
 		{
 			name: "wrong prefix",
 			msgClose: types.MsgClose{
-				Signer: "soja1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
 			},
 			errString: "invalid Bech32 prefix; expected cosmos, got soja",
 		},
@@ -325,7 +325,7 @@ func TestTypes_MsgForceCloseGetSigners(t *testing.T) {
 		{
 			name: "wrong prefix",
 			msgForceClose: types.MsgForceClose{
-				Signer: "soja1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
+				Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v",
 			},
 			errString: "invalid Bech32 prefix; expected cosmos, got soja",
 		},

@@ -29,12 +29,12 @@ Which returns
 {
   "claims": [
     {
-      "user_address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+      "user_address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
     },
     {
-      "user_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+      "user_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
     }
@@ -49,7 +49,7 @@ The relevant event would be in the same block as the one which has the dispensat
             "attributes": [
               {
                 "key": "userClaim_creator",
-                "value": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
               },
               {
                 "key": "userClaim_type",
@@ -69,7 +69,7 @@ The relevant event would be in the same block as the one which has the dispensat
 {
  "Output": [
   {
-   "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
    "coins": [
     {
      "denom": "fury",
@@ -78,7 +78,7 @@ The relevant event would be in the same block as the one which has the dispensat
    ]
   },
   {
-   "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
    "coins": [
     {
      "denom": "fury",
@@ -93,9 +93,9 @@ The relevant event would be in the same block as the one which has the dispensat
 ### This file is then used to create and run a dispensation
 Create
 ```shell
-sojanoded tx dispensation create ValidatorSubsidy output.json soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
+sojanoded tx dispensation create ValidatorSubsidy output.json did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
 ```
 Run
 ```shell
-sojanoded tx dispensation run 2_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd ValidatorSubsidy --from soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
+sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd ValidatorSubsidy --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury
 ```

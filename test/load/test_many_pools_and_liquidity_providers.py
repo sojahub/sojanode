@@ -112,7 +112,7 @@ class Test:
 
         self.env = None
         self.custom_wallet_mnemonics = [
-            # soja1rruvw03utshn7ry3emeqf2gzkg6eap6hu5shun
+            # did:fury:s1rruvw03utshn7ry3emeqf2gzkg6eap6hu5shun
             "zebra sentence tape you spawn forget catalog veteran rocket steel ticket slender follow rubber spoil thing into liar twin document ring clock shell skirt",
         ]
 

@@ -30,17 +30,17 @@ When used with the use of peg-zone as demonstrated a past video, this will enabl
 ```
 - name: akasha
   type: local
-  address: soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
+  address: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0mB4PyE5XeS3sNpFXIX536INyNoJHkMu1DEQ8FgH8Mq"}'
   mnemonic: ""
 - name: mkey
   type: multi
-  address: soja1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz
+  address: did:fury:s1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz
   pubkey: '{"@type":"/cosmos.crypto.multisig.LegacyAminoPubKey","threshold":2,"public_keys":[{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"},{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"A0mB4PyE5XeS3sNpFXIX536INyNoJHkMu1DEQ8FgH8Mq"}]}'
   mnemonic: ""
 - name: soja
   type: local
-  address: soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd
+  address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
   pubkey: '{"@type":"/cosmos.crypto.secp256k1.PubKey","key":"AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"}'
   mnemonic: ""
 ```

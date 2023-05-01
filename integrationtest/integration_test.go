@@ -37,7 +37,7 @@ type TestCase struct {
 
 func TC1(t *testing.T) TestCase {
 	externalAsset := "cusdc"
-	address := "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+	address := "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 
 	externalAssetBalance, ok := sdk.NewIntFromString("1000000000000000")
 	require.True(t, ok)
@@ -113,7 +113,7 @@ func TC1(t *testing.T) TestCase {
 func TC2(t *testing.T) TestCase {
 	sojaapp.SetConfig(false)
 	externalAsset := "cusdc"
-	address := "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+	address := "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 	addresses, _ := ethtest.CreateTestAddrs(1)
 
 	externalAssetBalance, ok := sdk.NewIntFromString("1000000000000000000") // 1,000,000,000,000.000000
@@ -219,7 +219,7 @@ func TC2(t *testing.T) TestCase {
 func TC3(t *testing.T) TestCase {
 	sojaapp.SetConfig(false)
 	externalAsset := "cusdc"
-	address := "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+	address := "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 	addresses, _ := ethtest.CreateTestAddrs(2)
 
 	externalAssetBalance, ok := sdk.NewIntFromString("1000000000000000000") // 1,000,000,000,000.000000

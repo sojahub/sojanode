@@ -81,7 +81,7 @@ chain_id = "mychain" // Parameter
 // Generate account with name 'soja' in the local keyring
 mnemonic = generate_mnemonic()
 exec("echo $mnemonic | sojanoded keys add --recover --keyring-backend test")
-soja_admin = exec("sojanoded keys show soja -a --keyring-backend test") // soja1xxx...
+soja_admin = exec("sojanoded keys show soja -a --keyring-backend test") // did:fury:s1xxx...
 
 // Init the chain. This command creates files:
 // ~/.sojanoded/config/node_key.json

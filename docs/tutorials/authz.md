@@ -6,17 +6,17 @@
 ## Steps to provide authorization
 1. Grant authorization to a particular address
 ```shell
-sojanoded tx authz grant soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 generic --msg-type=/sojanode.clp.v1.MsgCreatePool --from=soja --keyring-backend=test --chain-id=localnet
+sojanoded tx authz grant did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 generic --msg-type=/sojanode.clp.v1.MsgCreatePool --from=soja --keyring-backend=test --chain-id=localnet
 
 ```
-In this case the granter is `soja` . This allows `soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5` to perform any TX of type `MsgCreatePool` on their behalf
+In this case the granter is `soja` . This allows `did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5` to perform any TX of type `MsgCreatePool` on their behalf
 Query grants
 ```shell
-sojanoded q authz grants soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 /sojanode.clp.v1.MsgCreatePool
+sojanoded q authz grants did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 /sojanode.clp.v1.MsgCreatePool
 ```
 2. Create tx
 ```shell
-sojanoded tx clp create-pool --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --symbol ceth --nativeAmount 1000000000000000000 --externalAmount 1000000000000000000  --yes --chain-id=localnet --keyring-backend=test --generate-only > tx.json
+sojanoded tx clp create-pool --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --symbol ceth --nativeAmount 1000000000000000000 --externalAmount 1000000000000000000  --yes --chain-id=localnet --keyring-backend=test --generate-only > tx.json
 ```
 
 3. Sign and broadcast
@@ -27,14 +27,14 @@ Logs from exec
 ```json lines
     messages:
     - '@type': /cosmos.authz.v1beta1.MsgExec
-      grantee: soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
+      grantee: did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5
       msgs:
       - '@type': /sojanode.clp.v1.MsgCreatePool
         external_asset:
           symbol: ceth
         external_asset_amount: "1000000000000000000"
         native_asset_amount: "1000000000000000000"
-        signer: soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd
+        signer: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
 ```
 Notes 
 - The MsgCreatePool is wrapped inside a MsgExec .

@@ -104,7 +104,7 @@ When a token comes back to the source chain, it gets released from the escrow ad
 sojanoded q ibc-transfer escrow-address transfer channel-101 --node=https://rpc-devnet.sojahub.finance:443 --chain-id=sojahub-devnet-1
 ```
 ```json
-soja1j3mmq2dsfws0pv5fut3ce2252w0ere8g2alrvd
+did:fury:s1j3mmq2dsfws0pv5fut3ce2252w0ere8g2alrvd
 ```
 
 ## Sojahub Related Queries 

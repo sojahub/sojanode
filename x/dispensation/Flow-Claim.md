@@ -30,13 +30,13 @@ Which returns
 {
   "claims": [
     {
-      "user_address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+      "user_address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false
     },
     {
-      "user_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+      "user_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false
@@ -71,7 +71,7 @@ After parsing should become
             "attributes": [
               {
                 "key": "claim_creator",
-                "value": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
               },
               {
                 "key": "claim_type",
@@ -91,7 +91,7 @@ After parsing should become
 {
  "Output": [
   {
-   "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
    "coins": [
     {
      "denom": "fury",
@@ -100,7 +100,7 @@ After parsing should become
    ]
   },
   {
-   "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
    "coins": [
     {
      "denom": "fury",
@@ -132,7 +132,7 @@ sojanoded tx broadcast signedtx.json
             "attributes": [
               {
                 "key": "module_account",
-                "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+                "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
               }
             ]
           }
@@ -143,11 +143,11 @@ The sender address for the transfers should be the module account in the distrib
  [
           {
             "key": "recipient",
-            "value": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+            "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
           },
           {
             "key": "sender",
-            "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+            "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
           },
           {
             "key": "amount",

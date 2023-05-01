@@ -158,7 +158,7 @@ func GetCmdLiquidityProvider(queryRoute string) *cobra.Command {
 		Long: strings.TrimSpace(
 			fmt.Sprintf(`Query details for a liquidity provioder.
 Example:
-$ %s pool ETH soja1h2zjknvr3xlpk22q4dnv396ahftzqhyeth7egd`,
+$ %s pool ETH did:fury:s1h2zjknvr3xlpk22q4dnv396ahftzqhyeth7egd`,
 				version.AppName,
 			),
 		),

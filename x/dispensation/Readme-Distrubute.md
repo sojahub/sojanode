@@ -95,11 +95,11 @@ Transfer events are emitted for each transfer . There are two type of transfers 
   "attributes": [
     {
       "key": "recipient",
-      "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+      "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
     },
     {
       "key": "sender",
-      "value": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+      "value": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
     },
     {
       "key": "amount",
@@ -115,11 +115,11 @@ Transfer events are emitted for each transfer . There are two type of transfers 
   "attributes": [
     {
       "key": "recipient",
-      "value": "soja1p6z0ze9mztfd8cx5z9g6pndmzdrtxnsfesnn97"
+      "value": "did:fury:s1p6z0ze9mztfd8cx5z9g6pndmzdrtxnsfesnn97"
     },
     {
       "key": "sender",
-      "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+      "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
     },
     {
       "key": "amount",
@@ -137,7 +137,7 @@ Transfer events are emitted for each transfer . There are two type of transfers 
   "attributes": [
     {
       "key": "module_account",
-      "value": "soja1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
+      "value": "did:fury:s1zvwfuvy3nh949rn68haw78rg8jxjevgm2c820c"
     }
   ]
 }
@@ -155,5 +155,5 @@ sojanoded q dispensation records-by-name-pending ar1
 #Query completed distribution records by distribution name
 sojanoded q dispensation records-by-name-completed ar1
 #Query distribution records by address
-sojanoded q dispensation records-by-addr soja1cp23ye3h49nl5ty35vewrtvsgwnuczt03jwg00
+sojanoded q dispensation records-by-addr did:fury:s1cp23ye3h49nl5ty35vewrtvsgwnuczt03jwg00
 ```

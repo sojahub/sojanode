@@ -56,7 +56,7 @@
                     "@type": "/cosmos.auth.v1beta1.ModuleAccount",
                     "base_account": {
                         "account_number": "1",
-                        "address": "soja1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3sxxeku",
+                        "address": "did:fury:s1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3sxxeku",
                         "pub_key": null,
                         "sequence": "0"
                     },
@@ -70,7 +70,7 @@
                     "@type": "/cosmos.auth.v1beta1.ModuleAccount",
                     "base_account": {
                         "account_number": "2",
-                        "address": "soja1tygms3xhhs3yv487phx3dw4a95jn7t7lyx6gqg",
+                        "address": "did:fury:s1tygms3xhhs3yv487phx3dw4a95jn7t7lyx6gqg",
                         "pub_key": null,
                         "sequence": "0"
                     },
@@ -84,7 +84,7 @@
                     "@type": "/cosmos.auth.v1beta1.ModuleAccount",
                     "base_account": {
                         "account_number": "7",
-                        "address": "soja10d07y265gmmuvt4z0w9aw880jnsr700jllunec",
+                        "address": "did:fury:s10d07y265gmmuvt4z0w9aw880jnsr700jllunec",
                         "pub_key": null,
                         "sequence": "0"
                     },
@@ -97,7 +97,7 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "3",
-                    "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
                     "pub_key": {
                         "@type": "/cosmos.crypto.secp256k1.PubKey",
                         "key": "AvUEsFHbsr40nTSmWh7CWYRZHGwf4cpRLtJlaRO4VAoq"
@@ -108,7 +108,7 @@
                     "@type": "/cosmos.auth.v1beta1.ModuleAccount",
                     "base_account": {
                         "account_number": "0",
-                        "address": "soja1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8zzt2x5",
+                        "address": "did:fury:s1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8zzt2x5",
                         "pub_key": null,
                         "sequence": "0"
                     },
@@ -118,7 +118,7 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "5",
-                    "address": "soja1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz",
+                    "address": "did:fury:s1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz",
                     "pub_key": null,
                     "sequence": "0"
                 },
@@ -126,7 +126,7 @@
                     "@type": "/cosmos.auth.v1beta1.ModuleAccount",
                     "base_account": {
                         "account_number": "8",
-                        "address": "soja17xpfvakm2amg962yls6f84z3kell8c5l4yvkyk",
+                        "address": "did:fury:s17xpfvakm2amg962yls6f84z3kell8c5l4yvkyk",
                         "pub_key": null,
                         "sequence": "0"
                     },
@@ -136,14 +136,14 @@
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "6",
-                    "address": "soja17s95c5jpc6x2l3edwh4dm8yhac68yru7a7kr3x",
+                    "address": "did:fury:s17s95c5jpc6x2l3edwh4dm8yhac68yru7a7kr3x",
                     "pub_key": null,
                     "sequence": "0"
                 },
                 {
                     "@type": "/cosmos.auth.v1beta1.BaseAccount",
                     "account_number": "4",
-                    "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
                     "pub_key": null,
                     "sequence": "0"
                 }
@@ -159,7 +159,7 @@
         "bank": {
             "balances": [
                 {
-                    "address": "soja1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3sxxeku",
+                    "address": "did:fury:s1fl48vsnmsdzcv85q5d2q4z5ajdha8yu3sxxeku",
                     "coins": [
                         {
                             "amount": "1000000000000000000000000",
@@ -168,15 +168,15 @@
                     ]
                 },
                 {
-                    "address": "soja1tygms3xhhs3yv487phx3dw4a95jn7t7lyx6gqg",
+                    "address": "did:fury:s1tygms3xhhs3yv487phx3dw4a95jn7t7lyx6gqg",
                     "coins": []
                 },
                 {
-                    "address": "soja10d07y265gmmuvt4z0w9aw880jnsr700jllunec",
+                    "address": "did:fury:s10d07y265gmmuvt4z0w9aw880jnsr700jllunec",
                     "coins": []
                 },
                 {
-                    "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+                    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
                     "coins": [
                         {
                             "amount": "500000000000000000000000",
@@ -209,11 +209,11 @@
                     ]
                 },
                 {
-                    "address": "soja1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8zzt2x5",
+                    "address": "did:fury:s1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8zzt2x5",
                     "coins": []
                 },
                 {
-                    "address": "soja1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz",
+                    "address": "did:fury:s1kkdqp4dtqmc7wh59vchqr0zdzk8w2ydukjugkz",
                     "coins": [
                         {
                             "amount": "5000000000000000000000000000000",
@@ -222,11 +222,11 @@
                     ]
                 },
                 {
-                    "address": "soja17xpfvakm2amg962yls6f84z3kell8c5l4yvkyk",
+                    "address": "did:fury:s17xpfvakm2amg962yls6f84z3kell8c5l4yvkyk",
                     "coins": []
                 },
                 {
-                    "address": "soja17s95c5jpc6x2l3edwh4dm8yhac68yru7a7kr3x",
+                    "address": "did:fury:s17s95c5jpc6x2l3edwh4dm8yhac68yru7a7kr3x",
                     "coins": [
                         {
                             "amount": "100000000000000000000000",
@@ -235,7 +235,7 @@
                     ]
                 },
                 {
-                    "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+                    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
                     "coins": [
                         {
                             "amount": "500000000000000000000000",
@@ -306,9 +306,9 @@
         },
         "clp": {
             "address_whitelist": [
-                "soja1ny48eeuk4dm9f63dy0lwfgjhnvud9yvtzkhtjq",
-                "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
-                "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "did:fury:s1ny48eeuk4dm9f63dy0lwfgjhnvud9yvt8e3q3q",
+                "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+                "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
             ],
             "liquidity_provider_list": null,
             "params": {
@@ -322,13 +322,13 @@
         "distribution": {
             "delegator_starting_infos": [
                 {
-                    "delegator_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
                     "starting_info": {
                         "height": "0",
                         "previous_period": "1",
                         "stake": "1000000000000000000000000.000000000000000000"
                     },
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "delegator_withdraw_infos": [],
@@ -338,7 +338,7 @@
             "outstanding_rewards": [
                 {
                     "outstanding_rewards": [],
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "params": {
@@ -347,13 +347,13 @@
                 "community_tax": "0.020000000000000000",
                 "withdraw_addr_enabled": true
             },
-            "previous_proposer": "sojavalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
+            "previous_proposer": "did:fury:svalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
             "validator_accumulated_commissions": [
                 {
                     "accumulated": {
                         "commission": []
                     },
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "validator_current_rewards": [
@@ -362,7 +362,7 @@
                         "period": "2",
                         "rewards": []
                     },
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "validator_historical_rewards": [
@@ -372,7 +372,7 @@
                         "cumulative_reward_ratio": [],
                         "reference_count": 2
                     },
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "validator_slash_events": []
@@ -410,14 +410,14 @@
         },
         "oracle": {
             "address_whitelist": [
-                "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
             ],
             "admin_address": ""
         },
         "slashing": {
             "missed_blocks": [
                 {
-                    "address": "sojavalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
+                    "address": "did:fury:svalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
                     "missed_blocks": []
                 }
             ],
@@ -430,9 +430,9 @@
             },
             "signing_infos": [
                 {
-                    "address": "sojavalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
+                    "address": "did:fury:svalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
                     "validator_signing_info": {
-                        "address": "sojavalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
+                        "address": "did:fury:svalcons19nf44j47mssrgd76frpgc75jpk50ru4shyut55",
                         "index_offset": "5",
                         "jailed_until": "1970-01-01T00:00:00Z",
                         "missed_blocks_counter": "0",
@@ -445,16 +445,16 @@
         "staking": {
             "delegations": [
                 {
-                    "delegator_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+                    "delegator_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
                     "shares": "1000000000000000000000000.000000000000000000",
-                    "validator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
+                    "validator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna"
                 }
             ],
             "exported": true,
             "last_total_power": "1000000",
             "last_validator_powers": [
                 {
-                    "address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna",
+                    "address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna",
                     "power": "1000000"
                 }
             ],
@@ -491,7 +491,7 @@
                     },
                     "jailed": false,
                     "min_self_delegation": "1",
-                    "operator_address": "sojavaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna",
+                    "operator_address": "did:fury:svaloper1syavy2npfyt9tcncdtsdzf7kny9lh777dzsqna",
                     "status": "BOND_STATUS_BONDED",
                     "tokens": "1000000000000000000000000",
                     "unbonding_height": "0",

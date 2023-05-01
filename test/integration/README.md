@@ -62,7 +62,7 @@ test/integration/start-integration-env.sh
 ```
 # cd ~/workspace/sojanode/test/integration 
 # source ./exampleenv.sh
-# sojanoded q auth account --node tcp://44.241.55.154:26657 soja1pvnu2kh826vn8r0ttlgt82hsmfknvcnf7qmpvk
+# sojanoded q auth account --node tcp://44.241.55.154:26657 did:fury:s1pvnu2kh826vn8r0ttlgt82hsmfknvcnf7qmpvk
 # ...
 ```
 

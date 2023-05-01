@@ -1,6 +1,6 @@
 {
 	"accounts": {
-		"soja15ky9du8a2wlstz6fpx3p4mqpjyrm5cgp29yyze": [
+		"did:fury:s15ky9du8a2wlstz6fpx3p4mqpjyrm5cgp29yyze": [
 			{
 				"denom": "atom",
 				"amount": "1000000000000000000"
@@ -14,7 +14,7 @@
 				"amount": "999999500000000000000000000000"
 			}
 		],
-		"soja15ky9du8a2wlstz6fpx3p4mqpjyrm5cgqhns3lt": [
+		"did:fury:s15ky9du8a2wlstz6fpx3p4mqpjyrm5cgqhns3lt": [
 			{
 				"denom": "atom",
 				"amount": "1000000000000000000"
@@ -28,7 +28,7 @@
 				"amount": "1000000000000000000000000000000"
 			}
 		],
-		"soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd": [
+		"did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd": [
 			{
 				"denom": "atom",
 				"amount": "999000019869683995"
@@ -90,19 +90,19 @@
 		}
 	},
 	"LPs": {
-		"\u0001atom_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd": {
+		"\u0001atom_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd": {
 			"asset": {
 				"symbol": "atom"
 			},
 			"liquidity_provider_units": "1000000000000000000000000000",
-			"liquidity_provider_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+			"liquidity_provider_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 		},
-		"\u0001cusdc_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd": {
+		"\u0001cusdc_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd": {
 			"asset": {
 				"symbol": "cusdc"
 			},
 			"liquidity_provider_units": "1000000000000000000000000000",
-			"liquidity_provider_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+			"liquidity_provider_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 		}
 	}
 }

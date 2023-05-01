@@ -5,7 +5,7 @@
 {
   "Output": [
     {
-      "address": "soja1acdh3rca2elta9jdg5a6mjsw2cv3map6d8uc0x",
+      "address": "did:fury:s1acdh3rca2elta9jdg5a6mjsw2cv3map6d8uc0x",
       "coins": [
         {
           "denom": "fury",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "address": "soja1g0ecn4l05rdtzd8vcxpnt8283wxrnx4p3g7s3e",
+      "address": "did:fury:s1g0ecn4l05rdtzd8vcxpnt8283wxrnx4p3g7s3e",
       "coins": [
         {
           "denom": "fury",
@@ -23,7 +23,7 @@
       ]
     },
     {
-      "address": "soja12xyxcdvxg8xqydu2lejadvmycuryuxxckg84p3",
+      "address": "did:fury:s12xyxcdvxg8xqydu2lejadvmycuryuxxckg84p3",
       "coins": [
         {
           "denom": "fury",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "address": "soja1u0yj66x98sshaddfww5dtjx34apjsqvqkzxnjy",
+      "address": "did:fury:s1u0yj66x98sshaddfww5dtjx34apjsqvqkzxnjy",
       "coins": [
         {
           "denom": "fury",
@@ -41,7 +41,7 @@
       ]
     },
     {
-      "address": "soja1egzcve0udyxnakeq9vw9ynzle2qj3awf0zlny2",
+      "address": "did:fury:s1egzcve0udyxnakeq9vw9ynzle2qj3awf0zlny2",
       "coins": [
         {
           "denom": "fury",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "address": "soja1qx72w5t2g2gv7htmt57kff0j6rrv4vxsmz2g8p",
+      "address": "did:fury:s1qx72w5t2g2gv7htmt57kff0j6rrv4vxsmz2g8p",
       "coins": [
         {
           "denom": "fury",
@@ -59,7 +59,7 @@
       ]
     },
     {
-      "address": "soja1cvp23q8hkx0mqy923s46q5dwv0c7us8c0ntda8",
+      "address": "did:fury:s1cvp23q8hkx0mqy923s46q5dwv0c7us8c0ntda8",
       "coins": [
         {
           "denom": "fury",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "address": "soja104gd36rr8t3mkxtspv2hl4e3w365hkl46m9qj9",
+      "address": "did:fury:s104gd36rr8t3mkxtspv2hl4e3w365hkl46m9qj9",
       "coins": [
         {
           "denom": "fury",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "address": "soja1ka2euq8p6ymadgz9g9wcc34p84xs4ndp6gkwnr",
+      "address": "did:fury:s1ka2euq8p6ymadgz9g9wcc34p84xs4ndp6gkwnr",
       "coins": [
         {
           "denom": "fury",
@@ -112,14 +112,14 @@ Sample output ( address will be different )
   {
     "name": "amara",
     "type": "local",
-    "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
-    "pubkey": "sojapub1addwnpepqt6sfvz3mwetudyaxjn958kztxz9j8rvrlsu55fw6fjkjyac2s9z5sc8npe"
+    "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
+    "pubkey": "did:fury:spub1addwnpepqt6sfvz3mwetudyaxjn958kztxz9j8rvrlsu55fw6fjkjyac2s9z5sc8npe"
   },
   {
     "name": "zane",
     "type": "local",
-    "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
-    "pubkey": "sojapub1addwnpepqdycrc8usnjh0yk7cd532ushualgsderdqj8jr9m2rzy8stqrlpj5vymlww"
+    "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+    "pubkey": "did:fury:spub1addwnpepqdycrc8usnjh0yk7cd532ushualgsderdqj8jr9m2rzy8stqrlpj5vymlww"
   }
 ]
 ```
@@ -136,7 +136,7 @@ sojanoded keys add mkey --multisig amara,zane --multisig-threshold 2
 {
  "Input": [
   {
-   "address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+   "address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
    "coins": [
     {
      "denom": "fury",
@@ -145,7 +145,7 @@ sojanoded keys add mkey --multisig amara,zane --multisig-threshold 2
    ]
   },
   {
-   "address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+   "address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
    "coins": [
     {
      "denom": "fury",
@@ -163,7 +163,7 @@ sojanoded tx dispensation create mkey airdrop-1 Airdrop input.json output.json -
 
 ### Zane Signs the transaction 
 ```shell
-sojanoded tx sign --multisig soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from zane offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-zane.json
+sojanoded tx sign --multisig did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --from zane offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-zane.json
 ```
 Sample sig-zane.json
 ```json
@@ -181,7 +181,7 @@ Sample sig-zane.json
 - Zane then sends the offlinetx.json to amara
 - Amara creates her signature 
 ```shell
-sojanoded tx sign --multisig soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --from amara offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-amara.json
+sojanoded tx sign --multisig did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --from amara offlinetx.json --keyring-backend file --node tcp://rpc-mainnet.sojahub.finance:80 --chain-id sojahub-mainnet >> sig-amara.json
 ```
 Sample sig-amara.json
 ```json

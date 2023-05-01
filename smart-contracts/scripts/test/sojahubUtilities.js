@@ -63,7 +63,7 @@ const transactionYargOptions = {
         demandOption: true
     },
     'sojahub_address': {
-        describe: "A SojaChain address like soja132tc0acwt8klntn53xatchqztl3ajfxxxsawn8",
+        describe: "A SojaChain address like did:fury:s132tc0acwt8klntn53xatchqztl3ajfxxxsawn8",
         demandOption: true
     },
 }

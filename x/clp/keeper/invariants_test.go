@@ -158,7 +158,7 @@ func TestUnitsCheck(t *testing.T) {
 				{
 					Asset:                    &types.Asset{Symbol: "ceth"},
 					LiquidityProviderUnits:   sdk.NewUint(1000),
-					LiquidityProviderAddress: "soja123",
+					LiquidityProviderAddress: "did:fury:s123",
 				},
 				{
 					Asset:                    &types.Asset{Symbol: "ceth"},
@@ -180,7 +180,7 @@ func TestUnitsCheck(t *testing.T) {
 				{
 					Asset:                    &types.Asset{Symbol: "ceth"},
 					LiquidityProviderUnits:   sdk.NewUint(1000),
-					LiquidityProviderAddress: "soja123",
+					LiquidityProviderAddress: "did:fury:s123",
 				},
 				{
 					Asset:                    &types.Asset{Symbol: "ceth"},

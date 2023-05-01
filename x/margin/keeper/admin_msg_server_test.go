@@ -32,7 +32,7 @@ func TestMsgServer_AdminCloseAll(t *testing.T) {
 	}{
 		{
 			name:             "admin close and take funds",
-			msgAdminCloseAll: types.MsgAdminCloseAll{Signer: "soja1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v", TakeMarginFund: true},
+			msgAdminCloseAll: types.MsgAdminCloseAll{Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v", TakeMarginFund: true},
 			msgOpen: types.MsgOpen{
 				CollateralAsset: "fury",
 				BorrowAsset:     "xxx",
@@ -45,7 +45,7 @@ func TestMsgServer_AdminCloseAll(t *testing.T) {
 		},
 		{
 			name:             "admin close and not take funds",
-			msgAdminCloseAll: types.MsgAdminCloseAll{Signer: "soja1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v", TakeMarginFund: false},
+			msgAdminCloseAll: types.MsgAdminCloseAll{Signer: "did:fury:s1azpar20ck9lpys89r8x7zc8yu0qzgvtp48ng5v", TakeMarginFund: false},
 			msgOpen: types.MsgOpen{
 				CollateralAsset: "fury",
 				BorrowAsset:     "xxx",
@@ -104,9 +104,9 @@ func TestMsgServer_AdminCloseAll(t *testing.T) {
 						RemovalQueueThreshold:                    sdk.ZeroDec(),
 						Pools:                                    []string{},
 						ForceCloseFundPercentage:                 sdk.NewDecWithPrec(1, 2),
-						ForceCloseFundAddress:                    "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+						ForceCloseFundAddress:                    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
 						IncrementalInterestPaymentFundPercentage: sdk.NewDecWithPrec(1, 1),
-						IncrementalInterestPaymentFundAddress:    "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+						IncrementalInterestPaymentFundAddress:    "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
 						IncrementalInterestPaymentEnabled:        false,
 						PoolOpenThreshold:                        sdk.NewDecWithPrec(1, 1),
 						MaxOpenPositions:                         10000,

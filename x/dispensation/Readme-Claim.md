@@ -46,7 +46,7 @@ sojanoded tx dispensation claim ValidatorSubsidy --from akasha --keyring-backend
             "attributes": [
               {
                 "key": "claim_creator",
-                "value": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+                "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
               },
               {
                 "key": "claim_type",
@@ -70,13 +70,13 @@ Response
 {
   "claims": [
     {
-      "user_address": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
+      "user_address": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false
     },
     {
-      "user_address": "soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd",
+      "user_address": "did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd",
       "user_claim_type": "3",
       "user_claim_time": "2021-05-02T02:43:10.593125Z",
       "locked": false

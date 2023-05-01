@@ -15,7 +15,7 @@ sojanoded tx dispensation run [Distribution_Name] [Distribution Type Airdrop/Val
 ```
 sample CLI command
 ```shell
-sojanoded tx dispensation run 2_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd LiquidityMining --from soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
+sojanoded tx dispensation run 2_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd LiquidityMining --from did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5 --yes --gas auto --gas-adjustment=1.5 --gas-prices 1.0fury --node tcp://rpc.sojahub.finance:80 --chain-id sojahub
 ```
 sample output
 ```json
@@ -36,7 +36,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja12jcegqefrulfcxp565lyjyv4s2ja82ndpjrcse"
+              "value": "did:fury:s12jcegqefrulfcxp565lyjyv4s2ja82ndpjrcse"
             },
             {
               "key": "type",
@@ -53,7 +53,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja15pp0lqwq7squk9rdjejfdcqkf07apmcu2ym2zp"
+              "value": "did:fury:s15pp0lqwq7squk9rdjejfdcqkf07apmcu2ym2zp"
             },
             {
               "key": "type",
@@ -70,7 +70,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja17pnxcmm2de3j4v3wmzwzrwx0vz5trchc2ysfmt"
+              "value": "did:fury:s17pnxcmm2de3j4v3wmzwzrwx0vz5trchc2ysfmt"
             },
             {
               "key": "type",
@@ -87,7 +87,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja18ejp2jzgue7a4jfes3qq3l9n7q6yvztlk85ypu"
+              "value": "did:fury:s18ejp2jzgue7a4jfes3qq3l9n7q6yvztlk85ypu"
             },
             {
               "key": "type",
@@ -104,7 +104,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja199t07akr2cv6rhr8rlw50v4sz9lmkwyl42xlw4"
+              "value": "did:fury:s199t07akr2cv6rhr8rlw50v4sz9lmkwyl42xlw4"
             },
             {
               "key": "type",
@@ -121,7 +121,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja1dfn94fp0z0dg3cvte4pqgjkj5rucr8x2j5avt6"
+              "value": "did:fury:s1dfn94fp0z0dg3cvte4pqgjkj5rucr8x2j5avt6"
             },
             {
               "key": "type",
@@ -138,7 +138,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja1kxgqfh3a5wpzvqlu5tys2prs2wf5xemzzlpyfs"
+              "value": "did:fury:s1kxgqfh3a5wpzvqlu5tys2prs2wf5xemzzlpyfs"
             },
             {
               "key": "type",
@@ -155,7 +155,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja1pyu5ctnumet3s0hpy3jlqk32pgfsvr46v7v7uj"
+              "value": "did:fury:s1pyu5ctnumet3s0hpy3jlqk32pgfsvr46v7v7uj"
             },
             {
               "key": "type",
@@ -172,7 +172,7 @@ The relevant event
           "attributes": [
             {
               "key": "recipient_address",
-              "value": "soja1vm3g7fepdrygfwwc5gdfc9mv2zmvlkdga87fhv"
+              "value": "did:fury:s1vm3g7fepdrygfwwc5gdfc9mv2zmvlkdga87fhv"
             },
             {
               "key": "type",
@@ -189,11 +189,11 @@ The relevant event
           "attributes": [
             {
               "key": "distribution_name",
-              "value": "3_soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+              "value": "3_did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
             },
             {
               "key": "distribution_runner",
-              "value": "soja1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
+              "value": "did:fury:s1l7hypmqk2yc334vc6vmdwzp5sdefygj2ad93p5"
             }
           ]
         }

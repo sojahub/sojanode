@@ -58,7 +58,7 @@ returns:
       "block_interest_external": "0"
     }
   ],
-  "clp_module_address": "soja1pjm228rsgwqf23arkx7lm9ypkyma7mzr3y2n85",
+  "clp_module_address": "did:fury:s1pjm228rsgwqf23arkx7lm9ypkyma7mzr3y2n85",
   "height": "7",
   "pagination": {
     "next_key": null,

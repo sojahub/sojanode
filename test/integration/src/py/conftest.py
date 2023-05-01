@@ -328,7 +328,7 @@ def fury_source_integrationtest_env_transfer_request(
 @pytest.fixture
 def ethbridge_module_address():
     """The hardcoded address of the sojanode ethbridge module"""
-    return "soja1l3dftf499u4gvdeuuzdl2pgv4f0xdtnuuwlzp8"
+    return "did:fury:s1l3dftf499u4gvdeuuzdl2pgv4f0xdtnuuwlzp8"
 
 
 @pytest.fixture(scope="function")

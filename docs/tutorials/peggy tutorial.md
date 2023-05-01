@@ -34,22 +34,22 @@ Peggy is a cross-chain ethereum bridge for cosmos-sdk based chains such as sojah
 #### Send eth into SojaChain/Peggy address 
 1. In a new terminal, query for your local address `sojanoded keys list` and copy the address field
 2. Change into the smart-contacts directory `cd ./smart-contracts` 
-3. Execute the sendLockTx.js script (Send funds from your metaMask wallet into SojaChain/Peggy) `truffle exec scripts/sendLockTx.js --network ropsten soja130ak88ylwxd6krketcsvurgydyva5wjp3ueunl eth 500000000000000000
+3. Execute the sendLockTx.js script (Send funds from your metaMask wallet into SojaChain/Peggy) `truffle exec scripts/sendLockTx.js --network ropsten did:fury:s130ak88ylwxd6krketcsvurgydyva5wjp3ueunl eth 500000000000000000
 ` Note; uUpdate this command with your local address. Numbers are in wei. Use `https://eth-converter.com/` if needed. 
-4. Check sojahub address for the now pegged ethereum called `ceth`:  ` sojanoded q account soja130ak88ylwxd6krketcsvurgydyva5wjp3ueunl`  Note: again, update with your local address
+4. Check sojahub address for the now pegged ethereum called `ceth`:  ` sojanoded q account did:fury:s130ak88ylwxd6krketcsvurgydyva5wjp3ueunl`  Note: again, update with your local address
 #### Send ceth back to your MetaMask address
-1. Execute a ethbridge burn tx (un-peg funds) `sojanoded tx ethbridge burn soja130ak88ylwxd6krketcsvurgydyva5wjp3ueunl 0xdA6Df58317E6bf25F9B707E1BA27E41689e2229F 500000000000000000 ceth --ethereum-chain-id=3 --from=withered-sky --yes` Note: Update with your local soja address and ethereum receiver address
-2. Check account balance has been reduced `sojanoded q account soja130ak88ylwxd6krketcsvurgydyva5wjp3ueunl`
+1. Execute a ethbridge burn tx (un-peg funds) `sojanoded tx ethbridge burn did:fury:s130ak88ylwxd6krketcsvurgydyva5wjp3ueunl 0xdA6Df58317E6bf25F9B707E1BA27E41689e2229F 500000000000000000 ceth --ethereum-chain-id=3 --from=withered-sky --yes` Note: Update with your local soja address and ethereum receiver address
+2. Check account balance has been reduced `sojanoded q account did:fury:s130ak88ylwxd6krketcsvurgydyva5wjp3ueunl`
 3. Wait about 5mins. Check account balance: `https://ropsten.etherscan.io/address/...` Note: update with your address.
 
 Transfer 3 ETH -> cETH (Sojahub)
-`truffle exec scripts/sendLockTx.js --network ropsten soja14tm9600fx088jw55gypcwkwh04j34e9jp68t8r eth 3000000000000000000`
+`truffle exec scripts/sendLockTx.js --network ropsten did:fury:s14tm9600fx088jw55gypcwkwh04j34e9jp68t8r eth 3000000000000000000`
 
 Check balance
-`sojanoded q account soja14tm9600fx088jw55gypcwkwh04j34e9jp68t8r | jq`
+`sojanoded q account did:fury:s14tm9600fx088jw55gypcwkwh04j34e9jp68t8r | jq`
 
 Transfer 2 cETH (Sojahub) -> ETH
-`sojanoded tx ethbridge burn soja14tm9600fx088jw55gypcwkwh04j34e9jp68t8r 0x36d976254Ac9e0aEbe75a952daE46f4BcE9041e6 2000000000000000000 ceth --ethereum-chain-id=3 --from user -y`
+`sojanoded tx ethbridge burn did:fury:s14tm9600fx088jw55gypcwkwh04j34e9jp68t8r 0x36d976254Ac9e0aEbe75a952daE46f4BcE9041e6 2000000000000000000 ceth --ethereum-chain-id=3 --from user -y`
 
 
 

@@ -70,7 +70,7 @@ height: "718"
 liquidity_provider:
   asset:
     symbol: ceth
-  liquidity_provider_address: soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd
+  liquidity_provider_address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
   liquidity_provider_units: "2000000000000000000"
   unlocks: []
 native_asset_balance: "50693783068783068219"
@@ -90,7 +90,7 @@ height: "801"
 liquidity_provider:
   asset:
     symbol: ceth
-  liquidity_provider_address: soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd
+  liquidity_provider_address: did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd
   liquidity_provider_units: "2000000000000000000"
   unlocks:
   - request_height: "793"

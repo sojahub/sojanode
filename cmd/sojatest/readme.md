@@ -23,7 +23,7 @@ make install
    5. --externalAmount [external amount requested to add]
    6. --node [node to connect to]
 ```shell
-sojatest verify add --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --height=43516 --external-asset=ceth --nativeAmount=96176925423929435353999282 --externalAmount=488436982990 --node tcp://localhost:26657
+sojatest verify add --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --height=43516 --external-asset=ceth --nativeAmount=96176925423929435353999282 --externalAmount=488436982990 --node tcp://localhost:26657
 ```
 
 Output
@@ -58,7 +58,7 @@ Pool share after 1.000000000000000000
    5. --node [node to connect to]
 Command
 ```shell
-sojatest verify remove --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --units 1000000000000000000 --height=33068 --external-asset=ceth --node tcp://localhost:26657
+sojatest verify remove --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --units 1000000000000000000 --height=33068 --external-asset=ceth --node tcp://localhost:26657
 ```
 
 Output
@@ -94,7 +94,7 @@ Pool share after 1.000000000000000000
 
 Run command using height of close transaction and MTP id.
 ```shell
-sojatest verify close --from soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd --height=72990 --id=4 --node tcp://localhost:26657
+sojatest verify close --from did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd --height=72990 --id=4 --node tcp://localhost:26657
 ```
 Output
 ```shell

@@ -156,7 +156,7 @@ func TestUseUnlockedLiquidity(t *testing.T) {
 			lp := types.LiquidityProvider{
 				Asset:                    &types.Asset{Symbol: "atom"},
 				LiquidityProviderUnits:   sdk.NewUint(100),
-				LiquidityProviderAddress: "soja123",
+				LiquidityProviderAddress: "did:fury:s123",
 				Unlocks:                  tc.unlocks,
 			}
 			app.ClpKeeper.SetLiquidityProvider(ctx, &lp)

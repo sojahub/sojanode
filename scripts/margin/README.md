@@ -36,7 +36,7 @@ Now set the following variables:
 
 ```
 # localnet
-export ADMIN_ADDRESS="soja1syavy2npfyt9tcncdtsdzf7kny9lh777yqc2nd"
+export ADMIN_ADDRESS="did:fury:s1syavy2npfyt9tcncdtsdzf7kny9lh777p07psd"
 export ADMIN_MNEMONIC="race draft rival universe maid cheese steel logic crowd fork comic easy truth drift tomorrow eye buddy head time cash swing swift midnight borrow"
 export SOJA_ACT=soja
 export SOJANODE_CHAIN_ID=localnet
@@ -62,8 +62,8 @@ Setup the node with `sojagen`
 
 ```
 sojagen node create sojahub-1 sojanode1 "connect rocket hat athlete kind fall auction measure wage father bridge tackle midnight athlete benefit faculty shove okay win entire reveal kit era truly" \
---admin-clp-addresses="soja1mxv2xmhm9r25cdxpwp4n43fd98t8xz97mg6xyt|soja1rkl3p87fanf8srn44lp9xrxx8smtux4mfjhwf2" \
---admin-oracle-address=soja1mxv2xmhm9r25cdxpwp4n43fd98t8xz97mg6xyt \
+--admin-clp-addresses="did:fury:s1mxv2xmhm9r25cdxpwp4n43fd98t8xz97mg6xyt|did:fury:s1rkl3p87fanf8srn44lp9xrxx8smtux4mfjhwf2" \
+--admin-oracle-address=did:fury:s1mxv2xmhm9r25cdxpwp4n43fd98t8xz97mg6xyt \
 --standalone --with-cosmovisor
 ```
 

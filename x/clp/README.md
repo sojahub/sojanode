@@ -36,7 +36,7 @@ ExternalAsset: SourceChain: ETHEREUM
 ExternalAssetBalance: 1000
 NativeAssetBalance: 1000
 PoolUnits : 1000
-PoolAddress :soja1vdjxzumgtae8wmstpv9skzctpv9skzct72zwra
+PoolAddress :did:fury:s1vdjxzumgtae8wmstpv9skzctpv9skzct72zwra
 ````
 -Liquidity provider : Any user adding liquidity to a pool becomes a liquidity provider for that pool. 
 ````golang
@@ -44,7 +44,7 @@ ExternalAsset: SourceChain: ETHEREUM
                Symbol: ETH
                Ticker: ceth
 LiquidityProviderUnits: 1000
-liquidityProviderAddress: soja15tyrwghfcjszj7sckxvqh0qpzprup9mhksmuzm 
+liquidityProviderAddress: did:fury:s15tyrwghfcjszj7sckxvqh0qpzprup9mhksmuzm 
 ````
     
 ## Trasactions supported
